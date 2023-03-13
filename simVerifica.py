@@ -26,7 +26,7 @@ def map3():
   
 @app.route('/template')
 def template():
-  return render_template("Arsha/index.html")
+  return render_template("sitgs/index.html")
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=3245, debug=True)
